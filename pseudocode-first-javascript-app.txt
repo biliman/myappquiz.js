@@ -1,0 +1,19 @@
+SIMPAN DATA JAWABAN DALAM BENTUK ARRAY DAN OBJECT
+SIMPAN array "tipe_data" index 'integer', 'float', 'character', 'string', 'boolean'
+SIMPAN object "operator"
+SIMPAN object "control_flow"
+SIMPAN object "control_flow"
+
+SIMPAN FUNCTION untuk "CEK JAWABAN"
+IF "JAWABAN" = "TRUE"
+	NILAI = NILAI + 4
+	PRINT "JAWABAN BENAR"
+ELSE IF "JAWABAN" = "NULL"
+	NILAI = NILAI + 0
+	PRINT "TIDAK ADA JAWABAN"
+ELSE IF "JAWABAN" = "FALSE"
+	NILAI = NILAI - 1
+	PRINT "JAWABAN SALAH"
+RETURN NILAI
+
+PRINT NILAI = NILAI + NILAI
